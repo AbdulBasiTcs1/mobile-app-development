@@ -9,6 +9,31 @@ floor = (...args) => {
 
     return arr;
 }
+round = (...args) => {
+    arr = []
+    args.forEach((element, index) => {
+        arr[index] = Math.round(element);
+    })
+
+    return arr;
+}
+ceil = (...args) => {
+    arr = []
+    args.forEach((element, index) => {
+        arr[index] = Math.ceil(element);
+    })
+
+    return arr;
+}
+abs = (...args) => {
+    arr = []
+    args.forEach((element, index) => {
+        arr[index] = Math.abs(element);
+    })
+
+    return arr;
+}
+
 genericOpertaions = (operation, ...args) => {
     if (operation === 'round') {
         return round(...args);
@@ -27,3 +52,6 @@ genericOpertaions = (operation, ...args) => {
     }
 }
 console.log(genericOpertaions('floor', 1.3, 2.4, 3.6, 4.2, 5.5));
+console.log(genericOpertaions('round', 1.3, 2.4, 3.6, 4.2, 5.5));
+console.log(genericOpertaions('ceil', 1.3, 2.4, 3.6, 4.2, 5.5));
+console.log(genericOpertaions('abs', 1.3, 2.4, 3.6, 4.2, 5.5));
