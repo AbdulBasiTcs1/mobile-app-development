@@ -16,7 +16,7 @@ round = (...args) => {
 
 // abs
 console.log(round(1.2,4.3,7.7));
-round = (...args) => {
+abs = (...args) => {
     arr=[];
     args.forEach((element,index) => {
         arr[index]=Math.abs(element) 
@@ -26,7 +26,7 @@ round = (...args) => {
 
 // ceil
 console.log(round(1.2,4.3,7.7));
-round = (...args) => {
+ceil = (...args) => {
     arr=[];
     args.forEach((element,index) => {
         arr[index]=Math.ceil(element) 
@@ -36,7 +36,7 @@ round = (...args) => {
 console.log(round(1.2,4.3,7.7));
 
 // floor
-round = (...args) => {
+floor = (...args) => {
     arr=[];
     args.forEach((element,index) => {
         arr[index]=Math.floor(element) 
