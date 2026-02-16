@@ -6,3 +6,7 @@
 // FlatList, Image, Pressable, Introduction to React Navigation, Stack Navigator, Tab Navigator, Drawer navigator & Nested 
 // navigators, Themes, Dark/Light Theme and custom themes, AsyncStorage, Expo secure store, Working on Fetch Api, 
 // Context Api etc, Real time database (Firebase) and authentication
+
+// This repo is according to the lab manual and the 01 denotes the first and 
+// the 02 denotes the second lab in the lab manual and according to going with this
+// Lab manual Foucused repo ;
